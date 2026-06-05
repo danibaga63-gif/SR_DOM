@@ -7,26 +7,29 @@ IP-CIDR,134.224.0.0/16,DIRECT,no-resolve
 IP-CIDR,144.195.0.0/16,DIRECT,no-resolve
 IP-CIDR,206.247.0.0/16,DIRECT,no-resolve
 
+# Pinterest
+DOMAIN-SUFFIX,pinterest.com,DIRECT
+DOMAIN-SUFFIX,pinterest.ru,DIRECT
+DOMAIN-SUFFIX,pinimg.com,DIRECT
+
+# Zoom
 DOMAIN-SUFFIX,zoom.us,DIRECT
 DOMAIN-SUFFIX,zoom.com,DIRECT
 DOMAIN-SUFFIX,zoomcdn.net,DIRECT
 DOMAIN-SUFFIX,zoomgov.com,DIRECT
 DOMAIN-SUFFIX,zoom.com.cn,DIRECT
 
-# Pinterest
-DOMAIN-SUFFIX,pinterest.com,DIRECT
-DOMAIN-SUFFIX,pinterest.ru,DIRECT
-DOMAIN-SUFFIX,pinimg.com,DIRECT
-
-# Google ecosystem
+# Google
 DOMAIN-SUFFIX,google.com,DIRECT
 DOMAIN-SUFFIX,googleapis.com,DIRECT
 DOMAIN-SUFFIX,googleusercontent.com,DIRECT
 DOMAIN-SUFFIX,gstatic.com,DIRECT
 DOMAIN-SUFFIX,gmail.com,DIRECT
-DOMAIN-SUFFIX,googlevideo.com,DIRECT
 DOMAIN-SUFFIX,googlemail.com,DIRECT
+DOMAIN-SUFFIX,googlevideo.com,DIRECT
 
+DOMAIN,accounts.google.com,DIRECT
+DOMAIN,mail.google.com,DIRECT
 DOMAIN,drive.google.com,DIRECT
 DOMAIN,docs.google.com,DIRECT
 DOMAIN,sheets.google.com,DIRECT
@@ -34,12 +37,6 @@ DOMAIN,slides.google.com,DIRECT
 DOMAIN,forms.google.com,DIRECT
 DOMAIN,meet.google.com,DIRECT
 DOMAIN,calendar.google.com,DIRECT
-DOMAIN,mail.google.com,DIRECT
-DOMAIN,accounts.google.com,DIRECT
-
-DOMAIN,clients2.google.com,DIRECT
-DOMAIN,clients4.google.com,DIRECT
-DOMAIN,clients6.google.com,DIRECT
 
 DOMAIN,imap.gmail.com,DIRECT
 DOMAIN,imap.googlemail.com,DIRECT
@@ -48,8 +45,7 @@ DOMAIN,smtp.googlemail.com,DIRECT
 DOMAIN,pop.gmail.com,DIRECT
 DOMAIN,pop.googlemail.com,DIRECT
 
-# Outlook
 DOMAIN,outlook.office365.com,DIRECT
 
-# Russia
+# Russian services
 GEOIP,RU,DIRECT
